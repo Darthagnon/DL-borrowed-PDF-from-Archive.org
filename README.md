@@ -1,7 +1,8 @@
 # DL borrowed PDF from Archive.org
 Bookmarklet to download borrowed PDFs from Archive.org, including 1-hour loans.
 
-## Bookmarklet: [DL borrowed PDF from Archive.org](javascript:window.location=window.location.protocol+'//'+window.location.hostname+'/services/loans/loan/?action=media_url&identifier='+window.location.pathname.split("/")[2]+'&format=pdf&redirect=1';)
+## Bookmarklet
+**[DL borrowed PDF from Archive.org](javascript:window.location=window.location.protocol+'//'+window.location.hostname+'/services/loans/loan/?action=media_url&identifier='+window.location.pathname.split("/")[2]+'&format=pdf&redirect=1';)**
 
 Drag the above link to your web browser's bookmarks bar...
 
@@ -26,7 +27,9 @@ javascript: window.location = window.location.protocol + '//' + window.location.
   -  If it can be borrowed for **only 1 hour**, then no PDF download options are available.
   
 4. **Solution:** Add the bookmarklet to your browser:
-### Draggable link: [DL borrowed PDF from Archive.org](javascript:window.location=window.location.protocol+'//'+window.location.hostname+'/services/loans/loan/?action=media_url&identifier='+window.location.pathname.split("/")[2]+'&format=pdf&redirect=1';)
+### Draggable link: 
+**[DL borrowed PDF from Archive.org](javascript:window.location=window.location.protocol+'//'+window.location.hostname+'/services/loans/loan/?action=media_url&identifier='+window.location.pathname.split("/")[2]+'&format=pdf&redirect=1';)**
+
 Code:
 ```
 javascript: window.location = window.location.protocol + '//' + window.location.hostname + '/services/loans/loan/?action=media_url&identifier=' + window.location.pathname.split("/")[2] + '&format=pdf&redirect=1';
