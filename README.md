@@ -31,10 +31,11 @@ Code:
 ```
 javascript:window.location=window.location.protocol+'//'+window.location.hostname+'/services/loans/loan/?action=media_url&identifier='+window.location.pathname.split("/").pop()+'&format=pdf&redirect=1'
 ```
+5. Now go and borrow your book, **but do not browse any pages** (or the bookmarklet won't work).
 
-5. Now go and borrow your book, click the bookmarklet, and a linkfile for Adobe Digital Editions to download the PDF should download (works with 99% of the books I tried).
+6. Click the bookmarklet, and the `URLLink.acsm` linkfile for Adobe Digital Editions to download your 1-hour loan PDF should download (works with 99% of the books I tried). 
 
-6. Use [Calibre](https://calibre-ebook.com/download) and [DeDRM Tools](https://github.com/apprenticeharper/DeDRM_tools/releases/) to liberate the PDFs and read them at your leisure.
+7. In Adobe Digital Editions, right-click on the book >> `Show file in Explorer` >> Drag'n'drop the PDF into Calibre. Use Calibre [v4.23](https://download.calibre-ebook.com/4.23.0/) or [v5.44](https://download.calibre-ebook.com/5.44.0/) with [apprenticeharper's DeDRM Tools](https://github.com/apprenticeharper/DeDRM_tools/releases/) plugin installed to liberate the PDFs and read them at your leisure.
 
 
 ## History
